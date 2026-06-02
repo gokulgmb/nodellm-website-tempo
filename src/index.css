@@ -537,3 +537,90 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
   }
 }
+
+/* Hero extras */
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 14px;
+  background: rgba(0,255,255,0.08);
+  border: 1px solid rgba(0,255,255,0.2);
+  border-radius: 20px;
+  font-size: 0.85rem;
+  color: var(--accent-cyan);
+  margin-bottom: 24px;
+}
+.hero-sub {
+  margin-top: 16px;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+/* Nav github link */
+.nav-github {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid rgba(0,255,255,0.3);
+  border-radius: 6px;
+  padding: 4px 12px;
+}
+
+/* Tour reverse row */
+.tour-row.reverse {
+  direction: rtl;
+}
+.tour-row.reverse > * {
+  direction: ltr;
+}
+
+/* Resource links */
+.resource-link {
+  font-weight: bold;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+/* FAQ */
+.faq-item {
+  padding: 20px 24px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+.faq-item:hover {
+  border-color: var(--accent-cyan);
+}
+.faq-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.faq-header h3 {
+  font-size: 1.05rem;
+  margin: 0;
+}
+.faq-answer {
+  color: var(--text-muted);
+  margin-top: 14px;
+  line-height: 1.7;
+}
+
+/* CTA box */
+.cta-box {
+  padding: 60px;
+  border-color: var(--accent-cyan);
+}
+.cta-box h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Footer copy */
+.footer-copy {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(255,255,255,0.06);
+}
